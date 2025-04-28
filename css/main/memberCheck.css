@@ -1,0 +1,105 @@
+/* 팀원 조회 */
+.mySwiper {
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    padding: 20px 40px;
+    /*화살표 겹치지 않게 여백*/
+    box-sizing: border-box;
+}
+
+/* 멤버 소개 */
+.mySwiper .member-select .member-title {
+    color: rgb(123, 89, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 프로필 정렬 */
+.mySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/* 슬라이드 화살표 모양 설정 */
+.mySwiper .swiper-button-prev::after {
+    content: "\f104";
+    /* Font Awesome 아이콘 (예: fa-chevron-left) */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 22px;
+    color: #000;
+}
+
+.mySwiper .swiper-button-next::after {
+    content: "\f105";
+    /* Font Awesome 아이콘 (예: fa-chevron-right) */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 22px;
+    color: #000;
+}
+
+/* 마우스 올리면 아이콘으로 변경 */
+.mySwiper .swiper-button-prev:hover::after {
+    content: "\f0a8";
+    color: #007bff;
+    font-size: 26px;
+    transition: all 0.2s ease;
+}
+
+.mySwiper .swiper-button-next:hover::after {
+    content: "\f0a9";
+    /* hover 시 더 예쁜 아이콘으로 변경 */
+    color: #007bff;
+    font-size: 26px;
+    transition: all 0.2s ease;
+}
+
+/* 프로필 카드 */
+.mySwiper .swiper-slide .card {
+    width: 250px;
+    height: 230px;
+    margin-right: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: all 0.35s ease;
+    /*애니메이션 효과 주기*/
+    transform: scale(1);
+    /*크기를 1배 유지*/
+}
+
+/*card에 마우스를 올렸을 경우*/
+.mySwiper .swiper-slide .card:hover {
+    transform: scale(1.05) translateY(-8px);
+    /*크기 5% 확대, 위로 살짝 떠오르게*/
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    /*그림자를 이용해 부각되도록*/
+    filter: brightness(1.05);
+    /*밝기를 약간 높여서 강조*/
+}
+
+.mySwiper .card > img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto 10px;
+}
+
+.card > .card-body {
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}

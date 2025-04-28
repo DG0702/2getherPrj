@@ -1,0 +1,28 @@
+/* Main Header 부분 CSS */
+.header-line {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(231, 158, 0);
+    font-weight: 700;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.heaer-logo > span {
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.header-etc > span {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    /* 너비 설정 가능하게 */
+    width: 130px;
+    /* 적당한 고정 너비 (글자 길이에 따라 조절) */
+    white-space: nowrap;
+    /* 줄바꿈 방지 */
+}

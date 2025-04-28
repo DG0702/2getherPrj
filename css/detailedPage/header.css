@@ -1,0 +1,16 @@
+.header-line {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(231, 158, 0);
+    font-weight: 700;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.heaer-logo>span {
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+}

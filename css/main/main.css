@@ -1,0 +1,78 @@
+.main {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    height: 400px;
+    color: aliceblue;
+
+    background-image: url("../../images/twogetherMain.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-words {
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(41, 41, 41, 0.4);
+    padding: 20px;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.main p {
+    margin-bottom: 3px;
+}
+
+/* 버튼 박스 부분 */
+.main-btn-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 870px;
+    box-sizing: border-box;
+}
+
+.main-btn-box > button {
+    width: 100px;
+    padding: 10px 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-radius: 8px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+    color: rgb(73, 73, 73);
+
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 마우스 오버 시 */
+.main-btn-box > button:hover {
+    background-color: rgba(255, 255, 255, 0.753);
+    color: rgb(73, 73, 73);
+    font-size: medium;
+}
+
+/* 클릭 시 */
+.main-btn-box > button:active {
+    background-color: rgba(231, 158, 0, 0.4);
+    color: rgb(0, 0, 0);
+}

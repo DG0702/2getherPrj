@@ -1,0 +1,31 @@
+<div class="guestbook-container">
+    <div class="guestbook-title">방명록</div>
+
+    <div class="form-group">
+        <label for="guestName">이름</label>
+        <input type="text" id="guestName" placeholder="이름을 입력하세요" />
+    </div>
+    <div class="form-group">
+        <label for="guestContent">방명록 내용</label>
+        <textarea
+                id="guestContent"
+                rows="3"
+                placeholder="내용을 입력하세요"
+                wrap="off"
+        ></textarea>
+    </div>
+    <div class="btn-location">
+        <div class="btn-submit" id="guestSubmit">등록하기</div>
+    </div>
+    <hr />
+    <div class="count">
+        <p>방명록 수: <span id="message">?</span></p>
+    </div>
+    <div id="guestList" style="margin-top: 30px"></div>
+
+    <div class="pagination-location">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination"></ul>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+body {
+    background-color: ivory !important;
+}
+
+/* 스크롤바 전체 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* 스크롤바 막대 (움직이는 부분) */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+}
+
+/* 마우스 호버 시 색 변경 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+/* 스크롤바 트랙 (배경) */
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+}

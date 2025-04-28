@@ -1,0 +1,115 @@
+.about-us-ment {
+    color: rgb(123, 89, 45);
+    margin: 30px auto 30px auto;
+    width: 700px;
+    border-bottom: 1px solid rgb(123, 89, 45);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-ment > span {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-us {
+    color: rgb(123, 89, 45);
+    margin: 0 auto 50px auto;
+    width: 800px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.about-us > article {
+    height: 300px;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.art1,
+.art5 {
+    width: 30%;
+    padding: 60px 0px 60px 60px;
+}
+
+.art4 {
+    width: 30%;
+    padding: 60px 60px 60px 0px;
+}
+
+.about-us img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.art2,
+.art3,
+.art6 {
+    width: 70%;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.us-title {
+    margin: 0 200px;
+    border-bottom: 1px solid rgb(123, 89, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.us-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.us-content p {
+    margin: 5px;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+.highlight {
+    position: relative;
+}
+
+.highlight:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #fff20071;
+    z-index: -1;
+}
